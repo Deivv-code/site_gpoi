@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+.title {
+  font-family: "Diplomata SC", cursive;
+  text-align: center;
+  color: green;
+  font-size: 50px;
+}
+body {
+  background-color: lightgray !important;
+}
+.navbar {
+  background-color: darkgray !important;
+  text-align: center !important;
+}
+.nav-link {
+  color: darkgreen !important;
+  text-shadow: 1px 1px 1px black !important ;
+  font-size: 18px;
+}
+.img-carousel {
+  margin-left: auto;
+  margin-right: auto;
+  height: 834px;
+}
+
+.lateral-band {
+  margin-left: 100px;
+  margin-right: 100px;
+  align-content: center;
+  background-color: lightgray !important;
+}
+
+.lateral-band2 {
+  margin-left: 200px;
+  margin-right: 200px;
+  align-content: center;
+  background-color: lightgray !important;
+}
+.second-title {
+  text-align: center;
+  color: green;
+  font-family: 'IBM Plex Mono', monospace;
+  margin-top: 10px;
+}
+.img-nesting
+{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
