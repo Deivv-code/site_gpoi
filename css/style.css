@@ -125,3 +125,24 @@ body {
   color: green;
   text-shadow: 2px 2px 2px greenyellow;
 }
+.price-span{
+  font-size: 1.0rem;
+  font-family: 'Inconsolata', monospace;
+  color: green;
+  text-shadow: 2px 2px 2px greenyellow;
+}
+.p-collab{
+  font-size: 1rem;
+}
+.a-collab{
+  text-decoration: none;
+  font-size: 1rem;
+  color: red;
+}
+.a-collab:hover{
+  color: red;
+}
+.info-span{
+  font-size: 1rem;
+  color: rebeccapurple;
+}
