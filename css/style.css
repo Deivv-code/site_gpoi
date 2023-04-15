@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .title {
   font-family: "Diplomata SC", cursive;
@@ -187,4 +188,27 @@ body {
 .link-reselling:hover{
   color: green;
   font-size: 1.1rem;
+}
+
+.myChart{
+   width: 30%;
+   height: 300px;
+}
+.grafico{
+  width: 100%;
+}
+.info-spawner{
+  color: white !important;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: green !important;
+  margin-left: 10px;
+}
+h3{
+  text-align: center;
+  color: green;
+  text-shadow: 2px 2px 2px yellowgreen;
+}
+.card-grafico{
+  width: 99% !important;
+
 }
