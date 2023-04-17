@@ -52,28 +52,53 @@
         <h2 class="second-title">History of pricing</h2>
 
 
-        <div class="media">
-            <img class="mr-3 img-nesting" src="/images/chicago.jpg" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
-                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                fringilla. Donec lacinia congue felis in faucibus.
+            <div class="media">
+                <img class="mr-3 img-nesting" src="/images/chicago.jpg" alt="Generic placeholder image">
+                <div class="media-body">
+                    <h5 class="mt-0">Air Jordan 1 Chicago 1985</h5>
+                    Considerata una delle migliori colorazioni OG di Air Jordan 1, l'Air Jordan 1 Chicago è stata rilasciata nel 1985 al prezzo al dettaglio di $ 65 
+                    (anche se sembra economico, in realtà era considerata molto 35 anni fa). Di tutte le colorazioni OG delle Air Jordan 1 rilasciate, Michael Jordan ne ha 
+                    indossate solo tre in campo: Breds, Black Toes e Chicagos.
 
-                <div class="media mt-3">
+                    <div class="media mt-3">
+                        <img src="/images/chicago2.jpg" alt="Generic placeholder image" class="img-nesting mr-3">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="media">
+                <img class="mr-3 img-nesting" src="/images/air force 2.png" alt="Generic placeholder image">
+                <div class="media-body">
+                    <h5 class="mt-0">Air force 1 1982</h5>
+                    Tuttavia, la sequenza temporale del prezzo di AF1 Low non è ben documentata. L'Air Force 1 Low ha debuttato tra la metà e la fine degli anni '90 
+                    e ha venduto poco meno di $ 60, secondo Complex. All'inizio degli anni 2000, la scarpa è stata aumentata a $ 80. Non è chiaro quando la scarpa abbia 
+                    iniziato a raggiungere gli scaffali per $ 90.
 
-                    <img src="/images/chicago2.jpg" alt="Generic placeholder image" class="img-nesting mr-3">
+                    <div class="media mt-3">
+                        <img src="/images/air force 1.png" alt="Generic placeholder image" class="img-nesting mr-3">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="media">
+                <img class="mr-3 img-nesting" src="/images/all star 2.png" alt="Generic placeholder image">
+                <div class="media-body">
+                    <h5 class="mt-0">Converse Chuck Taylor 1917</h5>
+                    Le Chuck Taylor All-Stars, o semplicemente All-Star, sono una linea di scarpe di tela e gomma prodotte dalla Converse. 
+                    Furono prodotte per la prima volta nel 1917 come tentativo della Converse di entrare nel mercato delle scarpe per la pallacanestro, alla modesta cifra di
+                    1.0$.
 
-                    <div class="media-body">
-                        <h5 class="mt-0">Media heading</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
-                        purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-                        vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    <div class="media mt-3">
+                        <img src="/images/all star.png" alt="Generic placeholder image" class="img-nesting mr-3">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <br>
     <br>
@@ -94,11 +119,11 @@
                             <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
                             <script>
-                                const xValues = ["settembre", "ottobre", "novembre", "dicembre", "gennaio", "febbraio",
-                                    "marzo",
-                                    "aprile"
+                                const xValues = ["2023", "2022", "2020", "2015", "2010", "2005",
+                                    "2000",
+                                    "1985"
                                 ];
-                                const yValues = [1667, 993, 336, 378, 391, 386, 379, 372];
+                                const yValues = [1600, 1200, 1000, 800, 650, 400, 250, 65];
 
                                 new Chart("myChart", {
                                     type: "line",
@@ -119,8 +144,8 @@
                                         scales: {
                                             yAxes: [{
                                                 ticks: {
-                                                    min: 200,
-                                                    max: 1800
+                                                    min: 65,
+                                                    max: 1600
                                                 }
                                             }],
                                         }
@@ -134,7 +159,7 @@
                 <div class="col-sm">
                     <button class="btn info-spawner" type="button" data-toggle="collapse" data-target="#collapseExample1"
                         aria-expanded="false" aria-controls="collapseExample1">
-                        ↓ Grafico prezzo attuale Air Jordan 1 Chicago↓
+                        ↓ Grafico prezzo attuale <br> Air Force 1↓
                     </button>
                     <div class="collapse" id="collapseExample1">
                         <br>
@@ -142,11 +167,11 @@
                             <canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
 
                             <script>
-                                const xValues1 = ["settembre", "ottobre", "novembre", "dicembre", "gennaio", "febbraio",
-                                    "marzo",
-                                    "aprile"
+                                const xValues1 = ["2023", "2020", "2015", "2010", "2005", "2000",
+                                    "1992",
+                                    "1982"
                                 ];
-                                const yValues1 = [1667, 993, 336, 378, 391, 386, 379, 372];
+                                const yValues1 = [120, 110, 105, 100, 90, 80, 70, 60];
 
                                 new Chart("myChart1", {
                                     type: "line",
@@ -167,8 +192,8 @@
                                         scales: {
                                             yAxes: [{
                                                 ticks: {
-                                                    min: 200,
-                                                    max: 1800
+                                                    min: 60,
+                                                    max: 120
                                                 }
                                             }],
                                         }
@@ -182,7 +207,7 @@
                 <div class="col-sm">
                     <button class="btn info-spawner" type="button" data-toggle="collapse" data-target="#collapseExample2"
                     aria-expanded="false" aria-controls="collapseExample2">
-                    ↓ Grafico prezzo attuale Air Jordan 1 Chicago↓
+                    ↓ Grafico prezzo attuale Converse Chuck Taylor all-star↓
                 </button>
                 <div class="collapse" id="collapseExample2">
                     <br>
@@ -190,22 +215,22 @@
                         <canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
 
                         <script>
-                            const xValues2 = ["settembre", "ottobre", "novembre", "dicembre", "gennaio", "febbraio",
-                                "marzo",
-                                "aprile"
+                            const xValues2 = ["2023", "2022", "2020", "2012", "1986", "1970",
+                                "1950",
+                                "1917"
                             ];
-                            const yValues2 = [1667, 993, 336, 378, 391, 386, 379, 372];
+                            const yValues2 = [95, 95, 85, 50, 19.99, 7.99, 3.95, 1];
 
                             new Chart("myChart2", {
                                 type: "line",
                                 data: {
-                                    labels: xValues,
+                                    labels: xValues2,
                                     datasets: [{
                                         fill: false,
                                         lineTension: 0,
                                         backgroundColor: "rgba(0,0,255,1.0)",
                                         borderColor: "rgba(0,0,255,0.1)",
-                                        data: yValues
+                                        data: yValues2
                                     }]
                                 },
                                 options: {
@@ -215,8 +240,8 @@
                                     scales: {
                                         yAxes: [{
                                             ticks: {
-                                                min: 200,
-                                                max: 1800
+                                                min: 1,
+                                                max: 95
                                             }
                                         }],
                                     }
